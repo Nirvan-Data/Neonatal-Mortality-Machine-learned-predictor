@@ -1,0 +1,28 @@
+This directory contains all the datasets, scripts, and function libraries used to pre-process the JiVitA datasets used for the first neonatal mortality prediction algorithm. 
+
+INSTRUCTIONS:
+Open up the main script, give the full filepath on your machine to the directory "workFlow_dataSets_Share"
+
+	excerpt from the actual script
+		"
+		fullFilePath <- " ... workFlow_dataSets_Share"
+		"
+
+	Replace "..." with the full file path
+
+
+
+DATASETS
+	kidtrak.rdata
+	pregtrak.rdata
+	i3mop.rdata
+	ivba.rdata
+	naff.rdata
+	***m3bxmo.rds***data structure contains only variables compid and m3mxbo
+
+
+MAIN SCRIPT
+	complete_PreProcessing_workflow.r
+
+FUNCTION LIBRARY
+	FunctionLibrary_Recoding.r
